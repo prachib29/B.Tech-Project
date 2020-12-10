@@ -1,0 +1,180 @@
+2020-06-12 10:28:50,264 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001B864FCD508>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /api/v3/datatables/WIKI/PRICES?ticker=JPM
+2020-06-12 10:28:51,277 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001B865052A88>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /api/v3/datatables/WIKI/PRICES?ticker=JPM
+2020-06-12 10:28:53,345 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001B8651555C8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /api/v3/datatables/WIKI/PRICES?ticker=JPM
+2020-06-12 10:28:57,354 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001B865155A48>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /api/v3/datatables/WIKI/PRICES?ticker=JPM
+2020-06-12 10:29:05,356 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=5, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001B865155888>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /api/v3/datatables/WIKI/PRICES?ticker=JPM
+2020-06-12 10:30:46,511 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001B85B525B88>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /api/v3/datatables/WIKI/PRICES?ticker=JPM
+2020-06-12 10:30:47,514 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001B85B5275C8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /api/v3/datatables/WIKI/PRICES?ticker=JPM
+2020-06-12 10:30:49,518 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001B85B3DC548>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /api/v3/datatables/WIKI/PRICES?ticker=JPM
+2020-06-12 10:30:53,525 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001B85B527B88>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed')': /api/v3/datatables/WIKI/PRICES?ticker=JPM
+2020-06-12 10:31:30,878 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2020-06-12 10:31:34,866 - utilities - INFO - Found 0 type with 338 records
+2020-06-12 10:31:34,870 - utilities - INFO - Found 1 type with 412 records
+2020-06-12 10:31:34,871 - learning - INFO - Searching classifier best parameters
+2020-06-12 10:31:38,275 - learning - INFO - Best parameters found:
+2020-06-12 10:31:38,283 - learning - INFO - 0.6759999999999999
+2020-06-12 10:31:38,283 - learning - INFO - {'C': 10, 'gamma': 1, 'kernel': 'rbf'}
+2020-06-12 10:31:38,283 - learning - INFO - Creating calibrated...
+2020-06-12 10:31:38,283 - learning - INFO - Training...
+2020-06-12 10:31:39,319 - utilities - INFO - 
+              precision    recall  f1-score   support
+
+           0      0.714     0.539     0.615       102
+           1      0.728     0.851     0.785       148
+
+    accuracy                          0.724       250
+   macro avg      0.721     0.695     0.700       250
+weighted avg      0.723     0.724     0.715       250
+
+2020-06-12 10:31:39,327 - utilities - INFO - Macro F1 0.700
+2020-06-12 10:31:39,330 - utilities - INFO - Micro F1 0.724
+2020-06-12 10:31:39,333 - utilities - INFO - Accurary: 0.724 and AUC 0.695
+2020-06-12 10:31:48,640 - utilities - INFO - Found 0 type with 338 records
+2020-06-12 10:31:48,642 - utilities - INFO - Found 1 type with 412 records
+2020-06-12 10:31:48,644 - learning - INFO - Searching classifier best parameters
+2020-06-12 10:31:50,214 - learning - INFO - Best parameters found:
+2020-06-12 10:31:50,214 - learning - INFO - 0.6853333333333332
+2020-06-12 10:31:50,214 - learning - INFO - {'C': 10, 'gamma': 1, 'kernel': 'rbf'}
+2020-06-12 10:31:50,230 - learning - INFO - Creating calibrated...
+2020-06-12 10:31:50,230 - learning - INFO - Training...
+2020-06-12 10:31:50,625 - utilities - INFO - 
+              precision    recall  f1-score   support
+
+           0      0.693     0.510     0.588       102
+           1      0.714     0.845     0.774       148
+
+    accuracy                          0.708       250
+   macro avg      0.704     0.677     0.681       250
+weighted avg      0.706     0.708     0.698       250
+
+2020-06-12 10:31:50,625 - utilities - INFO - Macro F1 0.681
+2020-06-12 10:31:50,637 - utilities - INFO - Micro F1 0.708
+2020-06-12 10:31:50,640 - utilities - INFO - Accurary: 0.708 and AUC 0.677
+2020-06-12 10:31:59,638 - utilities - INFO - Found 0 type with 338 records
+2020-06-12 10:31:59,638 - utilities - INFO - Found 1 type with 412 records
+2020-06-12 10:31:59,643 - learning - INFO - Searching classifier best parameters
+2020-06-12 10:32:01,325 - learning - INFO - Best parameters found:
+2020-06-12 10:32:01,325 - learning - INFO - 0.6386666666666667
+2020-06-12 10:32:01,325 - learning - INFO - {'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}
+2020-06-12 10:32:01,325 - learning - INFO - Creating calibrated...
+2020-06-12 10:32:01,341 - learning - INFO - Training...
+2020-06-12 10:32:01,850 - utilities - INFO - 
+              precision    recall  f1-score   support
+
+           0      0.595     0.490     0.538       102
+           1      0.687     0.770     0.726       148
+
+    accuracy                          0.656       250
+   macro avg      0.641     0.630     0.632       250
+weighted avg      0.649     0.656     0.649       250
+
+2020-06-12 10:32:01,852 - utilities - INFO - Macro F1 0.632
+2020-06-12 10:32:01,854 - utilities - INFO - Micro F1 0.656
+2020-06-12 10:32:01,856 - utilities - INFO - Accurary: 0.656 and AUC 0.630
+2020-06-12 10:32:12,678 - utilities - INFO - Found 0 type with 338 records
+2020-06-12 10:32:12,678 - utilities - INFO - Found 1 type with 412 records
+2020-06-12 10:32:12,683 - learning - INFO - Searching classifier best parameters
+2020-06-12 10:32:14,539 - learning - INFO - Best parameters found:
+2020-06-12 10:32:14,539 - learning - INFO - 0.6
+2020-06-12 10:32:14,539 - learning - INFO - {'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}
+2020-06-12 10:32:14,555 - learning - INFO - Creating calibrated...
+2020-06-12 10:32:14,556 - learning - INFO - Training...
+2020-06-12 10:32:15,087 - utilities - INFO - 
+              precision    recall  f1-score   support
+
+           0      0.550     0.431     0.484       102
+           1      0.659     0.757     0.704       148
+
+    accuracy                          0.624       250
+   macro avg      0.604     0.594     0.594       250
+weighted avg      0.614     0.624     0.614       250
+
+2020-06-12 10:32:15,087 - utilities - INFO - Macro F1 0.594
+2020-06-12 10:32:15,095 - utilities - INFO - Micro F1 0.624
+2020-06-12 10:32:15,097 - utilities - INFO - Accurary: 0.624 and AUC 0.594
+2020-06-12 11:23:55,882 - utilities - INFO - Found 0 type with 338 records
+2020-06-12 11:23:55,885 - utilities - INFO - Found 1 type with 412 records
+2020-06-12 11:23:55,886 - learning - INFO - Searching classifier best parameters
+2020-06-12 11:23:58,772 - learning - INFO - Best parameters found:
+2020-06-12 11:23:58,772 - learning - INFO - 0.6759999999999999
+2020-06-12 11:23:58,773 - learning - INFO - {'C': 10, 'gamma': 1, 'kernel': 'rbf'}
+2020-06-12 11:23:58,773 - learning - INFO - Creating calibrated...
+2020-06-12 11:23:58,774 - learning - INFO - Training...
+2020-06-12 11:23:59,205 - utilities - INFO - 
+              precision    recall  f1-score   support
+
+           0      0.714     0.539     0.615       102
+           1      0.728     0.851     0.785       148
+
+    accuracy                          0.724       250
+   macro avg      0.721     0.695     0.700       250
+weighted avg      0.723     0.724     0.715       250
+
+2020-06-12 11:23:59,206 - utilities - INFO - Macro F1 0.700
+2020-06-12 11:23:59,207 - utilities - INFO - Micro F1 0.724
+2020-06-12 11:23:59,209 - utilities - INFO - Accurary: 0.724 and AUC 0.695
+2020-06-12 11:24:08,079 - utilities - INFO - Found 0 type with 338 records
+2020-06-12 11:24:08,079 - utilities - INFO - Found 1 type with 412 records
+2020-06-12 11:24:08,084 - learning - INFO - Searching classifier best parameters
+2020-06-12 11:24:09,542 - learning - INFO - Best parameters found:
+2020-06-12 11:24:09,558 - learning - INFO - 0.6853333333333332
+2020-06-12 11:24:09,558 - learning - INFO - {'C': 10, 'gamma': 1, 'kernel': 'rbf'}
+2020-06-12 11:24:09,558 - learning - INFO - Creating calibrated...
+2020-06-12 11:24:09,560 - learning - INFO - Training...
+2020-06-12 11:24:09,938 - utilities - INFO - 
+              precision    recall  f1-score   support
+
+           0      0.693     0.510     0.588       102
+           1      0.714     0.845     0.774       148
+
+    accuracy                          0.708       250
+   macro avg      0.704     0.677     0.681       250
+weighted avg      0.706     0.708     0.698       250
+
+2020-06-12 11:24:09,954 - utilities - INFO - Macro F1 0.681
+2020-06-12 11:24:09,957 - utilities - INFO - Micro F1 0.708
+2020-06-12 11:24:09,958 - utilities - INFO - Accurary: 0.708 and AUC 0.677
+2020-06-12 11:24:18,515 - utilities - INFO - Found 0 type with 338 records
+2020-06-12 11:24:18,515 - utilities - INFO - Found 1 type with 412 records
+2020-06-12 11:24:18,520 - learning - INFO - Searching classifier best parameters
+2020-06-12 11:24:20,002 - learning - INFO - Best parameters found:
+2020-06-12 11:24:20,002 - learning - INFO - 0.6386666666666667
+2020-06-12 11:24:20,002 - learning - INFO - {'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}
+2020-06-12 11:24:20,002 - learning - INFO - Creating calibrated...
+2020-06-12 11:24:20,011 - learning - INFO - Training...
+2020-06-12 11:24:20,440 - utilities - INFO - 
+              precision    recall  f1-score   support
+
+           0      0.595     0.490     0.538       102
+           1      0.687     0.770     0.726       148
+
+    accuracy                          0.656       250
+   macro avg      0.641     0.630     0.632       250
+weighted avg      0.649     0.656     0.649       250
+
+2020-06-12 11:24:20,440 - utilities - INFO - Macro F1 0.632
+2020-06-12 11:24:20,440 - utilities - INFO - Micro F1 0.656
+2020-06-12 11:24:20,457 - utilities - INFO - Accurary: 0.656 and AUC 0.630
+2020-06-12 11:24:29,462 - utilities - INFO - Found 0 type with 338 records
+2020-06-12 11:24:29,462 - utilities - INFO - Found 1 type with 412 records
+2020-06-12 11:24:29,462 - learning - INFO - Searching classifier best parameters
+2020-06-12 11:24:31,321 - learning - INFO - Best parameters found:
+2020-06-12 11:24:31,321 - learning - INFO - 0.6
+2020-06-12 11:24:31,321 - learning - INFO - {'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}
+2020-06-12 11:24:31,321 - learning - INFO - Creating calibrated...
+2020-06-12 11:24:31,321 - learning - INFO - Training...
+2020-06-12 11:24:31,846 - utilities - INFO - 
+              precision    recall  f1-score   support
+
+           0      0.550     0.431     0.484       102
+           1      0.659     0.757     0.704       148
+
+    accuracy                          0.624       250
+   macro avg      0.604     0.594     0.594       250
+weighted avg      0.614     0.624     0.614       250
+
+2020-06-12 11:24:31,846 - utilities - INFO - Macro F1 0.594
+2020-06-12 11:24:31,846 - utilities - INFO - Micro F1 0.624
+2020-06-12 11:24:31,846 - utilities - INFO - Accurary: 0.624 and AUC 0.594
+2020-06-12 12:09:12,875 - utilities - INFO - Loading [..\DataSets\Market\stock/JPM.csv]...
+2020-06-12 12:09:22,583 - utilities - INFO - Loading [..\DataSets\Market\stock/JPM.csv]...

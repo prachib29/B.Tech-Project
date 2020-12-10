@@ -1,0 +1,516 @@
+2020-06-15 18:02:22,661 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2020-06-15 18:02:26,782 - utilities - INFO - Found 0 type with 338 records
+2020-06-15 18:02:26,785 - utilities - INFO - Found 1 type with 412 records
+2020-06-15 18:02:26,786 - learning - INFO - Searching classifier best parameters
+2020-06-15 18:02:30,090 - learning - INFO - Best parameters found:
+2020-06-15 18:02:30,090 - learning - INFO - 0.6759999999999999
+2020-06-15 18:02:30,090 - learning - INFO - {'C': 10, 'gamma': 1, 'kernel': 'rbf'}
+2020-06-15 18:02:30,090 - learning - INFO - Creating calibrated...
+2020-06-15 18:02:30,090 - learning - INFO - Training...
+2020-06-15 18:02:31,099 - utilities - INFO - 
+              precision    recall  f1-score   support
+
+           0      0.714     0.539     0.615       102
+           1      0.728     0.851     0.785       148
+
+    accuracy                          0.724       250
+   macro avg      0.721     0.695     0.700       250
+weighted avg      0.723     0.724     0.715       250
+
+2020-06-15 18:02:31,099 - utilities - INFO - Macro F1 0.700
+2020-06-15 18:02:31,103 - utilities - INFO - Micro F1 0.724
+2020-06-15 18:02:31,105 - utilities - INFO - Accurary: 0.724 and AUC 0.695
+2020-06-15 18:02:40,551 - utilities - INFO - Found 0 type with 338 records
+2020-06-15 18:02:40,551 - utilities - INFO - Found 1 type with 412 records
+2020-06-15 18:02:40,551 - learning - INFO - Searching classifier best parameters
+2020-06-15 18:02:42,107 - learning - INFO - Best parameters found:
+2020-06-15 18:02:42,107 - learning - INFO - 0.6853333333333332
+2020-06-15 18:02:42,107 - learning - INFO - {'C': 10, 'gamma': 1, 'kernel': 'rbf'}
+2020-06-15 18:02:42,107 - learning - INFO - Creating calibrated...
+2020-06-15 18:02:42,107 - learning - INFO - Training...
+2020-06-15 18:02:42,531 - utilities - INFO - 
+              precision    recall  f1-score   support
+
+           0      0.693     0.510     0.588       102
+           1      0.714     0.845     0.774       148
+
+    accuracy                          0.708       250
+   macro avg      0.704     0.677     0.681       250
+weighted avg      0.706     0.708     0.698       250
+
+2020-06-15 18:02:42,531 - utilities - INFO - Macro F1 0.681
+2020-06-15 18:02:42,531 - utilities - INFO - Micro F1 0.708
+2020-06-15 18:02:42,538 - utilities - INFO - Accurary: 0.708 and AUC 0.677
+2020-06-15 18:02:51,020 - utilities - INFO - Found 0 type with 338 records
+2020-06-15 18:02:51,020 - utilities - INFO - Found 1 type with 412 records
+2020-06-15 18:02:51,026 - learning - INFO - Searching classifier best parameters
+2020-06-15 18:02:52,652 - learning - INFO - Best parameters found:
+2020-06-15 18:02:52,652 - learning - INFO - 0.6386666666666667
+2020-06-15 18:02:52,652 - learning - INFO - {'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}
+2020-06-15 18:02:52,652 - learning - INFO - Creating calibrated...
+2020-06-15 18:02:52,652 - learning - INFO - Training...
+2020-06-15 18:02:53,111 - utilities - INFO - 
+              precision    recall  f1-score   support
+
+           0      0.595     0.490     0.538       102
+           1      0.687     0.770     0.726       148
+
+    accuracy                          0.656       250
+   macro avg      0.641     0.630     0.632       250
+weighted avg      0.649     0.656     0.649       250
+
+2020-06-15 18:02:53,111 - utilities - INFO - Macro F1 0.632
+2020-06-15 18:02:53,111 - utilities - INFO - Micro F1 0.656
+2020-06-15 18:02:53,125 - utilities - INFO - Accurary: 0.656 and AUC 0.630
+2020-06-15 18:03:01,207 - utilities - INFO - Found 0 type with 338 records
+2020-06-15 18:03:01,210 - utilities - INFO - Found 1 type with 412 records
+2020-06-15 18:03:01,211 - learning - INFO - Searching classifier best parameters
+2020-06-15 18:03:03,070 - learning - INFO - Best parameters found:
+2020-06-15 18:03:03,070 - learning - INFO - 0.6
+2020-06-15 18:03:03,070 - learning - INFO - {'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}
+2020-06-15 18:03:03,070 - learning - INFO - Creating calibrated...
+2020-06-15 18:03:03,070 - learning - INFO - Training...
+2020-06-15 18:03:03,608 - utilities - INFO - 
+              precision    recall  f1-score   support
+
+           0      0.550     0.431     0.484       102
+           1      0.659     0.757     0.704       148
+
+    accuracy                          0.624       250
+   macro avg      0.604     0.594     0.594       250
+weighted avg      0.614     0.624     0.614       250
+
+2020-06-15 18:03:03,608 - utilities - INFO - Macro F1 0.594
+2020-06-15 18:03:03,608 - utilities - INFO - Micro F1 0.624
+2020-06-15 18:03:03,615 - utilities - INFO - Accurary: 0.624 and AUC 0.594
+2020-06-15 18:12:10,741 - utilities - INFO - Loading [..\DataSets\Market\stock/JPM.csv]...
+2020-06-15 18:12:23,573 - utilities - INFO - Loading [..\DataSets\Market\reddit/DJIA_table.csv]...
+2020-06-15 18:12:24,473 - utilities - INFO - Found 0 type with 327 records
+2020-06-15 18:12:24,475 - utilities - INFO - Found 1 type with 423 records
+2020-06-15 18:12:24,475 - learning - INFO - Searching classifier best parameters
+2020-06-15 18:12:27,256 - learning - INFO - Best parameters found:
+2020-06-15 18:12:27,257 - learning - INFO - 0.6933333333333332
+2020-06-15 18:12:27,258 - learning - INFO - {'C': 10, 'gamma': 1, 'kernel': 'rbf'}
+2020-06-15 18:12:27,258 - learning - INFO - Creating calibrated...
+2020-06-15 18:12:27,258 - learning - INFO - Training...
+2020-06-15 18:12:27,650 - utilities - INFO - 
+              precision    recall  f1-score   support
+
+           0      0.612     0.531     0.568        98
+           1      0.721     0.783     0.751       152
+
+    accuracy                          0.684       250
+   macro avg      0.666     0.657     0.660       250
+weighted avg      0.678     0.684     0.679       250
+
+2020-06-15 18:12:27,652 - utilities - INFO - Macro F1 0.660
+2020-06-15 18:12:27,654 - utilities - INFO - Micro F1 0.684
+2020-06-15 18:12:27,656 - utilities - INFO - Accurary: 0.684 and AUC 0.657
+2020-06-15 18:12:27,824 - utilities - INFO - Loading [..\DataSets\Market\reddit/DJIA_table.csv]...
+2020-06-15 18:12:28,831 - utilities - INFO - Found 0 type with 327 records
+2020-06-15 18:12:28,834 - utilities - INFO - Found 1 type with 423 records
+2020-06-15 18:12:28,835 - learning - INFO - Searching classifier best parameters
+2020-06-15 18:12:30,268 - learning - INFO - Best parameters found:
+2020-06-15 18:12:30,269 - learning - INFO - 0.6946666666666668
+2020-06-15 18:12:30,269 - learning - INFO - {'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}
+2020-06-15 18:12:30,269 - learning - INFO - Creating calibrated...
+2020-06-15 18:12:30,270 - learning - INFO - Training...
+2020-06-15 18:12:30,654 - utilities - INFO - 
+              precision    recall  f1-score   support
+
+           0      0.622     0.704     0.660        98
+           1      0.791     0.724     0.756       152
+
+    accuracy                          0.716       250
+   macro avg      0.706     0.714     0.708       250
+weighted avg      0.725     0.716     0.718       250
+
+2020-06-15 18:12:30,656 - utilities - INFO - Macro F1 0.708
+2020-06-15 18:12:30,657 - utilities - INFO - Micro F1 0.716
+2020-06-15 18:12:30,660 - utilities - INFO - Accurary: 0.716 and AUC 0.714
+2020-06-15 18:12:30,848 - utilities - INFO - Loading [..\DataSets\Market\reddit/DJIA_table.csv]...
+2020-06-15 18:12:31,796 - utilities - INFO - Found 0 type with 327 records
+2020-06-15 18:12:31,796 - utilities - INFO - Found 1 type with 423 records
+2020-06-15 18:12:31,802 - learning - INFO - Searching classifier best parameters
+2020-06-15 18:12:33,253 - learning - INFO - Best parameters found:
+2020-06-15 18:12:33,253 - learning - INFO - 0.6666666666666666
+2020-06-15 18:12:33,253 - learning - INFO - {'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}
+2020-06-15 18:12:33,253 - learning - INFO - Creating calibrated...
+2020-06-15 18:12:33,253 - learning - INFO - Training...
+2020-06-15 18:12:33,657 - utilities - INFO - 
+              precision    recall  f1-score   support
+
+           0      0.613     0.582     0.597        98
+           1      0.739     0.763     0.751       152
+
+    accuracy                          0.692       250
+   macro avg      0.676     0.672     0.674       250
+weighted avg      0.689     0.692     0.690       250
+
+2020-06-15 18:12:33,673 - utilities - INFO - Macro F1 0.674
+2020-06-15 18:12:33,673 - utilities - INFO - Micro F1 0.692
+2020-06-15 18:12:33,676 - utilities - INFO - Accurary: 0.692 and AUC 0.672
+2020-06-15 18:12:33,932 - utilities - INFO - Loading [..\DataSets\Market\reddit/DJIA_table.csv]...
+2020-06-15 18:12:34,889 - utilities - INFO - Found 0 type with 327 records
+2020-06-15 18:12:34,889 - utilities - INFO - Found 1 type with 423 records
+2020-06-15 18:12:34,893 - learning - INFO - Searching classifier best parameters
+2020-06-15 18:12:36,724 - learning - INFO - Best parameters found:
+2020-06-15 18:12:36,726 - learning - INFO - 0.5813333333333335
+2020-06-15 18:12:36,727 - learning - INFO - {'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}
+2020-06-15 18:12:36,727 - learning - INFO - Creating calibrated...
+2020-06-15 18:12:36,728 - learning - INFO - Training...
+2020-06-15 18:12:37,230 - utilities - INFO - 
+              precision    recall  f1-score   support
+
+           0      0.586     0.418     0.488        98
+           1      0.683     0.809     0.741       152
+
+    accuracy                          0.656       250
+   macro avg      0.635     0.614     0.615       250
+weighted avg      0.645     0.656     0.642       250
+
+2020-06-15 18:12:37,246 - utilities - INFO - Macro F1 0.615
+2020-06-15 18:12:37,246 - utilities - INFO - Micro F1 0.656
+2020-06-15 18:12:37,249 - utilities - INFO - Accurary: 0.656 and AUC 0.614
+2020-06-15 18:12:46,725 - utilities - INFO - Loading [..\DataSets\Market\stock/JPM.csv]...
+2020-06-15 18:13:00,136 - utilities - INFO - Loading [..\DataSets\Market\stock/JPM.csv]...
+2020-06-15 18:13:03,576 - utilities - INFO - Loading [..\DataSets\Market\reddit/DJIA_table.csv]...
+2020-06-15 18:13:04,509 - utilities - INFO - Found 0 type with 327 records
+2020-06-15 18:13:04,511 - utilities - INFO - Found 1 type with 423 records
+2020-06-15 18:13:04,512 - learning - INFO - Searching classifier best parameters
+2020-06-15 18:13:05,967 - learning - INFO - Best parameters found:
+2020-06-15 18:13:05,967 - learning - INFO - 0.6933333333333332
+2020-06-15 18:13:05,967 - learning - INFO - {'C': 10, 'gamma': 1, 'kernel': 'rbf'}
+2020-06-15 18:13:05,967 - learning - INFO - Creating calibrated...
+2020-06-15 18:13:05,967 - learning - INFO - Training...
+2020-06-15 18:13:06,376 - utilities - INFO - 
+              precision    recall  f1-score   support
+
+           0      0.612     0.531     0.568        98
+           1      0.721     0.783     0.751       152
+
+    accuracy                          0.684       250
+   macro avg      0.666     0.657     0.660       250
+weighted avg      0.678     0.684     0.679       250
+
+2020-06-15 18:13:06,379 - utilities - INFO - Macro F1 0.660
+2020-06-15 18:13:06,380 - utilities - INFO - Micro F1 0.684
+2020-06-15 18:13:06,382 - utilities - INFO - Accurary: 0.684 and AUC 0.657
+2020-06-15 18:13:06,554 - utilities - INFO - Loading [..\DataSets\Market\reddit/DJIA_table.csv]...
+2020-06-15 18:13:07,602 - utilities - INFO - Found 0 type with 327 records
+2020-06-15 18:13:07,604 - utilities - INFO - Found 1 type with 423 records
+2020-06-15 18:13:07,605 - learning - INFO - Searching classifier best parameters
+2020-06-15 18:13:09,112 - learning - INFO - Best parameters found:
+2020-06-15 18:13:09,128 - learning - INFO - 0.6946666666666668
+2020-06-15 18:13:09,128 - learning - INFO - {'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}
+2020-06-15 18:13:09,128 - learning - INFO - Creating calibrated...
+2020-06-15 18:13:09,131 - learning - INFO - Training...
+2020-06-15 18:13:09,499 - utilities - INFO - 
+              precision    recall  f1-score   support
+
+           0      0.622     0.704     0.660        98
+           1      0.791     0.724     0.756       152
+
+    accuracy                          0.716       250
+   macro avg      0.706     0.714     0.708       250
+weighted avg      0.725     0.716     0.718       250
+
+2020-06-15 18:13:09,499 - utilities - INFO - Macro F1 0.708
+2020-06-15 18:13:09,499 - utilities - INFO - Micro F1 0.716
+2020-06-15 18:13:09,516 - utilities - INFO - Accurary: 0.716 and AUC 0.714
+2020-06-15 18:13:09,691 - utilities - INFO - Loading [..\DataSets\Market\reddit/DJIA_table.csv]...
+2020-06-15 18:13:10,643 - utilities - INFO - Found 0 type with 327 records
+2020-06-15 18:13:10,645 - utilities - INFO - Found 1 type with 423 records
+2020-06-15 18:13:10,647 - learning - INFO - Searching classifier best parameters
+2020-06-15 18:13:12,117 - learning - INFO - Best parameters found:
+2020-06-15 18:13:12,117 - learning - INFO - 0.6666666666666666
+2020-06-15 18:13:12,117 - learning - INFO - {'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}
+2020-06-15 18:13:12,117 - learning - INFO - Creating calibrated...
+2020-06-15 18:13:12,117 - learning - INFO - Training...
+2020-06-15 18:13:12,533 - utilities - INFO - 
+              precision    recall  f1-score   support
+
+           0      0.613     0.582     0.597        98
+           1      0.739     0.763     0.751       152
+
+    accuracy                          0.692       250
+   macro avg      0.676     0.672     0.674       250
+weighted avg      0.689     0.692     0.690       250
+
+2020-06-15 18:13:12,533 - utilities - INFO - Macro F1 0.674
+2020-06-15 18:13:12,538 - utilities - INFO - Micro F1 0.692
+2020-06-15 18:13:12,540 - utilities - INFO - Accurary: 0.692 and AUC 0.672
+2020-06-15 18:13:12,813 - utilities - INFO - Loading [..\DataSets\Market\reddit/DJIA_table.csv]...
+2020-06-15 18:13:13,801 - utilities - INFO - Found 0 type with 327 records
+2020-06-15 18:13:13,801 - utilities - INFO - Found 1 type with 423 records
+2020-06-15 18:13:13,807 - learning - INFO - Searching classifier best parameters
+2020-06-15 18:13:15,652 - learning - INFO - Best parameters found:
+2020-06-15 18:13:15,652 - learning - INFO - 0.5813333333333335
+2020-06-15 18:13:15,652 - learning - INFO - {'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}
+2020-06-15 18:13:15,652 - learning - INFO - Creating calibrated...
+2020-06-15 18:13:15,652 - learning - INFO - Training...
+2020-06-15 18:13:16,206 - utilities - INFO - 
+              precision    recall  f1-score   support
+
+           0      0.586     0.418     0.488        98
+           1      0.683     0.809     0.741       152
+
+    accuracy                          0.656       250
+   macro avg      0.635     0.614     0.615       250
+weighted avg      0.645     0.656     0.642       250
+
+2020-06-15 18:13:16,208 - utilities - INFO - Macro F1 0.615
+2020-06-15 18:13:16,209 - utilities - INFO - Micro F1 0.656
+2020-06-15 18:13:16,211 - utilities - INFO - Accurary: 0.656 and AUC 0.614
+2020-06-15 18:19:34,214 - utilities - INFO - Found 0 type with 338 records
+2020-06-15 18:19:34,214 - utilities - INFO - Found 1 type with 412 records
+2020-06-15 18:19:34,218 - learning - INFO - Searching classifier best parameters
+2020-06-15 18:19:37,179 - learning - INFO - Best parameters found:
+2020-06-15 18:19:37,179 - learning - INFO - 0.6759999999999999
+2020-06-15 18:19:37,179 - learning - INFO - {'C': 10, 'gamma': 1, 'kernel': 'rbf'}
+2020-06-15 18:19:37,179 - learning - INFO - Creating calibrated...
+2020-06-15 18:19:37,179 - learning - INFO - Training...
+2020-06-15 18:19:37,568 - utilities - INFO - 
+              precision    recall  f1-score   support
+
+           0      0.714     0.539     0.615       102
+           1      0.728     0.851     0.785       148
+
+    accuracy                          0.724       250
+   macro avg      0.721     0.695     0.700       250
+weighted avg      0.723     0.724     0.715       250
+
+2020-06-15 18:19:37,568 - utilities - INFO - Macro F1 0.700
+2020-06-15 18:19:37,583 - utilities - INFO - Micro F1 0.724
+2020-06-15 18:19:37,585 - utilities - INFO - Accurary: 0.724 and AUC 0.695
+2020-06-15 18:19:46,189 - utilities - INFO - Found 0 type with 338 records
+2020-06-15 18:19:46,192 - utilities - INFO - Found 1 type with 412 records
+2020-06-15 18:19:46,192 - learning - INFO - Searching classifier best parameters
+2020-06-15 18:19:47,954 - learning - INFO - Best parameters found:
+2020-06-15 18:19:47,954 - learning - INFO - 0.6853333333333332
+2020-06-15 18:19:47,954 - learning - INFO - {'C': 10, 'gamma': 1, 'kernel': 'rbf'}
+2020-06-15 18:19:47,954 - learning - INFO - Creating calibrated...
+2020-06-15 18:19:47,954 - learning - INFO - Training...
+2020-06-15 18:19:48,398 - utilities - INFO - 
+              precision    recall  f1-score   support
+
+           0      0.693     0.510     0.588       102
+           1      0.714     0.845     0.774       148
+
+    accuracy                          0.708       250
+   macro avg      0.704     0.677     0.681       250
+weighted avg      0.706     0.708     0.698       250
+
+2020-06-15 18:19:48,398 - utilities - INFO - Macro F1 0.681
+2020-06-15 18:19:48,398 - utilities - INFO - Micro F1 0.708
+2020-06-15 18:19:48,414 - utilities - INFO - Accurary: 0.708 and AUC 0.677
+2020-06-15 18:19:57,597 - utilities - INFO - Found 0 type with 338 records
+2020-06-15 18:19:57,597 - utilities - INFO - Found 1 type with 412 records
+2020-06-15 18:19:57,597 - learning - INFO - Searching classifier best parameters
+2020-06-15 18:19:59,277 - learning - INFO - Best parameters found:
+2020-06-15 18:19:59,277 - learning - INFO - 0.6386666666666667
+2020-06-15 18:19:59,277 - learning - INFO - {'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}
+2020-06-15 18:19:59,277 - learning - INFO - Creating calibrated...
+2020-06-15 18:19:59,277 - learning - INFO - Training...
+2020-06-15 18:19:59,772 - utilities - INFO - 
+              precision    recall  f1-score   support
+
+           0      0.595     0.490     0.538       102
+           1      0.687     0.770     0.726       148
+
+    accuracy                          0.656       250
+   macro avg      0.641     0.630     0.632       250
+weighted avg      0.649     0.656     0.649       250
+
+2020-06-15 18:19:59,772 - utilities - INFO - Macro F1 0.632
+2020-06-15 18:19:59,772 - utilities - INFO - Micro F1 0.656
+2020-06-15 18:19:59,772 - utilities - INFO - Accurary: 0.656 and AUC 0.630
+2020-06-15 18:20:09,488 - utilities - INFO - Found 0 type with 338 records
+2020-06-15 18:20:09,490 - utilities - INFO - Found 1 type with 412 records
+2020-06-15 18:20:09,490 - learning - INFO - Searching classifier best parameters
+2020-06-15 18:20:11,446 - learning - INFO - Best parameters found:
+2020-06-15 18:20:11,446 - learning - INFO - 0.6
+2020-06-15 18:20:11,446 - learning - INFO - {'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}
+2020-06-15 18:20:11,446 - learning - INFO - Creating calibrated...
+2020-06-15 18:20:11,446 - learning - INFO - Training...
+2020-06-15 18:20:11,970 - utilities - INFO - 
+              precision    recall  f1-score   support
+
+           0      0.550     0.431     0.484       102
+           1      0.659     0.757     0.704       148
+
+    accuracy                          0.624       250
+   macro avg      0.604     0.594     0.594       250
+weighted avg      0.614     0.624     0.614       250
+
+2020-06-15 18:20:11,986 - utilities - INFO - Macro F1 0.594
+2020-06-15 18:20:11,986 - utilities - INFO - Micro F1 0.624
+2020-06-15 18:20:11,989 - utilities - INFO - Accurary: 0.624 and AUC 0.594
+2020-06-15 18:22:53,875 - utilities - INFO - Found 0 type with 338 records
+2020-06-15 18:22:53,880 - utilities - INFO - Found 1 type with 412 records
+2020-06-15 18:22:53,881 - learning - INFO - Searching classifier best parameters
+2020-06-15 18:22:55,434 - learning - INFO - Best parameters found:
+2020-06-15 18:22:55,434 - learning - INFO - 0.6759999999999999
+2020-06-15 18:22:55,434 - learning - INFO - {'C': 10, 'gamma': 1, 'kernel': 'rbf'}
+2020-06-15 18:22:55,434 - learning - INFO - Creating calibrated...
+2020-06-15 18:22:55,434 - learning - INFO - Training...
+2020-06-15 18:22:55,825 - utilities - INFO - 
+              precision    recall  f1-score   support
+
+           0      0.714     0.539     0.615       102
+           1      0.728     0.851     0.785       148
+
+    accuracy                          0.724       250
+   macro avg      0.721     0.695     0.700       250
+weighted avg      0.723     0.724     0.715       250
+
+2020-06-15 18:22:55,826 - utilities - INFO - Macro F1 0.700
+2020-06-15 18:22:55,828 - utilities - INFO - Micro F1 0.724
+2020-06-15 18:22:55,830 - utilities - INFO - Accurary: 0.724 and AUC 0.695
+2020-06-15 18:23:03,990 - utilities - INFO - Found 0 type with 338 records
+2020-06-15 18:23:03,990 - utilities - INFO - Found 1 type with 412 records
+2020-06-15 18:23:03,994 - learning - INFO - Searching classifier best parameters
+2020-06-15 18:23:05,456 - learning - INFO - Best parameters found:
+2020-06-15 18:23:05,456 - learning - INFO - 0.6853333333333332
+2020-06-15 18:23:05,456 - learning - INFO - {'C': 10, 'gamma': 1, 'kernel': 'rbf'}
+2020-06-15 18:23:05,456 - learning - INFO - Creating calibrated...
+2020-06-15 18:23:05,456 - learning - INFO - Training...
+2020-06-15 18:23:05,855 - utilities - INFO - 
+              precision    recall  f1-score   support
+
+           0      0.693     0.510     0.588       102
+           1      0.714     0.845     0.774       148
+
+    accuracy                          0.708       250
+   macro avg      0.704     0.677     0.681       250
+weighted avg      0.706     0.708     0.698       250
+
+2020-06-15 18:23:05,855 - utilities - INFO - Macro F1 0.681
+2020-06-15 18:23:05,855 - utilities - INFO - Micro F1 0.708
+2020-06-15 18:23:05,868 - utilities - INFO - Accurary: 0.708 and AUC 0.677
+2020-06-15 18:23:14,928 - utilities - INFO - Found 0 type with 338 records
+2020-06-15 18:23:14,928 - utilities - INFO - Found 1 type with 412 records
+2020-06-15 18:23:14,932 - learning - INFO - Searching classifier best parameters
+2020-06-15 18:23:16,444 - learning - INFO - Best parameters found:
+2020-06-15 18:23:16,444 - learning - INFO - 0.6386666666666667
+2020-06-15 18:23:16,446 - learning - INFO - {'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}
+2020-06-15 18:23:16,447 - learning - INFO - Creating calibrated...
+2020-06-15 18:23:16,447 - learning - INFO - Training...
+2020-06-15 18:23:16,901 - utilities - INFO - 
+              precision    recall  f1-score   support
+
+           0      0.595     0.490     0.538       102
+           1      0.687     0.770     0.726       148
+
+    accuracy                          0.656       250
+   macro avg      0.641     0.630     0.632       250
+weighted avg      0.649     0.656     0.649       250
+
+2020-06-15 18:23:16,901 - utilities - INFO - Macro F1 0.632
+2020-06-15 18:23:16,901 - utilities - INFO - Micro F1 0.656
+2020-06-15 18:23:16,918 - utilities - INFO - Accurary: 0.656 and AUC 0.630
+2020-06-15 18:23:26,427 - utilities - INFO - Found 0 type with 338 records
+2020-06-15 18:23:26,429 - utilities - INFO - Found 1 type with 412 records
+2020-06-15 18:23:26,431 - learning - INFO - Searching classifier best parameters
+2020-06-15 18:23:28,272 - learning - INFO - Best parameters found:
+2020-06-15 18:23:28,272 - learning - INFO - 0.6
+2020-06-15 18:23:28,272 - learning - INFO - {'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}
+2020-06-15 18:23:28,280 - learning - INFO - Creating calibrated...
+2020-06-15 18:23:28,280 - learning - INFO - Training...
+2020-06-15 18:23:28,813 - utilities - INFO - 
+              precision    recall  f1-score   support
+
+           0      0.550     0.431     0.484       102
+           1      0.659     0.757     0.704       148
+
+    accuracy                          0.624       250
+   macro avg      0.604     0.594     0.594       250
+weighted avg      0.614     0.624     0.614       250
+
+2020-06-15 18:23:28,813 - utilities - INFO - Macro F1 0.594
+2020-06-15 18:23:28,819 - utilities - INFO - Micro F1 0.624
+2020-06-15 18:23:28,821 - utilities - INFO - Accurary: 0.624 and AUC 0.594
+2020-06-15 18:25:03,293 - utilities - INFO - Found 0 type with 338 records
+2020-06-15 18:25:03,296 - utilities - INFO - Found 1 type with 412 records
+2020-06-15 18:25:03,299 - learning - INFO - Searching classifier best parameters
+2020-06-15 18:25:04,801 - learning - INFO - Best parameters found:
+2020-06-15 18:25:04,801 - learning - INFO - 0.6759999999999999
+2020-06-15 18:25:04,801 - learning - INFO - {'C': 10, 'gamma': 1, 'kernel': 'rbf'}
+2020-06-15 18:25:04,801 - learning - INFO - Creating calibrated...
+2020-06-15 18:25:04,801 - learning - INFO - Training...
+2020-06-15 18:25:05,187 - utilities - INFO - 
+              precision    recall  f1-score   support
+
+           0      0.714     0.539     0.615       102
+           1      0.728     0.851     0.785       148
+
+    accuracy                          0.724       250
+   macro avg      0.721     0.695     0.700       250
+weighted avg      0.723     0.724     0.715       250
+
+2020-06-15 18:25:05,187 - utilities - INFO - Macro F1 0.700
+2020-06-15 18:25:05,191 - utilities - INFO - Micro F1 0.724
+2020-06-15 18:25:05,194 - utilities - INFO - Accurary: 0.724 and AUC 0.695
+2020-06-15 18:25:13,704 - utilities - INFO - Found 0 type with 338 records
+2020-06-15 18:25:13,704 - utilities - INFO - Found 1 type with 412 records
+2020-06-15 18:25:13,704 - learning - INFO - Searching classifier best parameters
+2020-06-15 18:25:15,325 - learning - INFO - Best parameters found:
+2020-06-15 18:25:15,325 - learning - INFO - 0.6853333333333332
+2020-06-15 18:25:15,325 - learning - INFO - {'C': 10, 'gamma': 1, 'kernel': 'rbf'}
+2020-06-15 18:25:15,336 - learning - INFO - Creating calibrated...
+2020-06-15 18:25:15,337 - learning - INFO - Training...
+2020-06-15 18:25:15,760 - utilities - INFO - 
+              precision    recall  f1-score   support
+
+           0      0.693     0.510     0.588       102
+           1      0.714     0.845     0.774       148
+
+    accuracy                          0.708       250
+   macro avg      0.704     0.677     0.681       250
+weighted avg      0.706     0.708     0.698       250
+
+2020-06-15 18:25:15,761 - utilities - INFO - Macro F1 0.681
+2020-06-15 18:25:15,763 - utilities - INFO - Micro F1 0.708
+2020-06-15 18:25:15,765 - utilities - INFO - Accurary: 0.708 and AUC 0.677
+2020-06-15 18:25:24,098 - utilities - INFO - Found 0 type with 338 records
+2020-06-15 18:25:24,098 - utilities - INFO - Found 1 type with 412 records
+2020-06-15 18:25:24,104 - learning - INFO - Searching classifier best parameters
+2020-06-15 18:25:25,578 - learning - INFO - Best parameters found:
+2020-06-15 18:25:25,578 - learning - INFO - 0.6386666666666667
+2020-06-15 18:25:25,578 - learning - INFO - {'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}
+2020-06-15 18:25:25,578 - learning - INFO - Creating calibrated...
+2020-06-15 18:25:25,578 - learning - INFO - Training...
+2020-06-15 18:25:26,017 - utilities - INFO - 
+              precision    recall  f1-score   support
+
+           0      0.595     0.490     0.538       102
+           1      0.687     0.770     0.726       148
+
+    accuracy                          0.656       250
+   macro avg      0.641     0.630     0.632       250
+weighted avg      0.649     0.656     0.649       250
+
+2020-06-15 18:25:26,033 - utilities - INFO - Macro F1 0.632
+2020-06-15 18:25:26,033 - utilities - INFO - Micro F1 0.656
+2020-06-15 18:25:26,036 - utilities - INFO - Accurary: 0.656 and AUC 0.630
+2020-06-15 18:25:34,832 - utilities - INFO - Found 0 type with 338 records
+2020-06-15 18:25:34,832 - utilities - INFO - Found 1 type with 412 records
+2020-06-15 18:25:34,838 - learning - INFO - Searching classifier best parameters
+2020-06-15 18:25:36,756 - learning - INFO - Best parameters found:
+2020-06-15 18:25:36,758 - learning - INFO - 0.6
+2020-06-15 18:25:36,759 - learning - INFO - {'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}
+2020-06-15 18:25:36,760 - learning - INFO - Creating calibrated...
+2020-06-15 18:25:36,760 - learning - INFO - Training...
+2020-06-15 18:25:37,304 - utilities - INFO - 
+              precision    recall  f1-score   support
+
+           0      0.550     0.431     0.484       102
+           1      0.659     0.757     0.704       148
+
+    accuracy                          0.624       250
+   macro avg      0.604     0.594     0.594       250
+weighted avg      0.614     0.624     0.614       250
+
+2020-06-15 18:25:37,305 - utilities - INFO - Macro F1 0.594
+2020-06-15 18:25:37,308 - utilities - INFO - Micro F1 0.624
+2020-06-15 18:25:37,310 - utilities - INFO - Accurary: 0.624 and AUC 0.594

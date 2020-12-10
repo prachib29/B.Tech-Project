@@ -1,0 +1,97 @@
+2020-06-17 20:46:11,539 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2020-06-17 20:50:15,170 - utilities - INFO - Found 0 type with 338 records
+2020-06-17 20:50:15,183 - utilities - INFO - Found 1 type with 412 records
+2020-06-17 20:50:15,185 - learning - INFO - Searching classifier best parameters
+2020-06-17 20:50:23,084 - learning - INFO - Best parameters found:
+2020-06-17 20:50:23,084 - learning - INFO - 0.6759999999999999
+2020-06-17 20:50:23,084 - learning - INFO - {'C': 10, 'gamma': 1, 'kernel': 'rbf'}
+2020-06-17 20:50:23,095 - learning - INFO - Creating calibrated...
+2020-06-17 20:50:23,107 - learning - INFO - Training...
+2020-06-17 20:50:45,559 - utilities - INFO - Found 0 type with 338 records
+2020-06-17 20:50:45,565 - utilities - INFO - Found 1 type with 412 records
+2020-06-17 20:50:45,567 - learning - INFO - Searching classifier best parameters
+2020-06-17 20:50:49,974 - learning - INFO - Best parameters found:
+2020-06-17 20:50:49,974 - learning - INFO - 0.6773333333333332
+2020-06-17 20:50:49,974 - learning - INFO - {'C': 10, 'gamma': 1, 'kernel': 'rbf'}
+2020-06-17 20:50:49,990 - learning - INFO - Creating calibrated...
+2020-06-17 20:50:49,993 - learning - INFO - Training...
+2020-06-17 20:51:38,913 - utilities - INFO - Found 0 type with 338 records
+2020-06-17 20:51:38,920 - utilities - INFO - Found 1 type with 412 records
+2020-06-17 20:51:38,922 - learning - INFO - Searching classifier best parameters
+2020-06-17 20:51:43,806 - learning - INFO - Best parameters found:
+2020-06-17 20:51:43,809 - learning - INFO - 0.6693333333333333
+2020-06-17 20:51:43,810 - learning - INFO - {'C': 10, 'gamma': 1, 'kernel': 'rbf'}
+2020-06-17 20:51:43,811 - learning - INFO - Creating calibrated...
+2020-06-17 20:51:43,813 - learning - INFO - Training...
+2020-06-17 21:08:07,235 - utilities - INFO - Found 0 type with 366 records
+2020-06-17 21:08:07,238 - utilities - INFO - Found 1 type with 384 records
+2020-06-17 21:08:07,238 - learning - INFO - Searching classifier best parameters
+2020-06-17 21:08:34,509 - learning - INFO - Best parameters found:
+2020-06-17 21:08:34,510 - learning - INFO - 0.6679999999999999
+2020-06-17 21:08:34,510 - learning - INFO - {'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}
+2020-06-17 21:08:34,510 - learning - INFO - Creating calibrated...
+2020-06-17 21:08:34,511 - learning - INFO - Training...
+2020-06-17 21:08:50,210 - utilities - INFO - Found 0 type with 366 records
+2020-06-17 21:08:50,213 - utilities - INFO - Found 1 type with 384 records
+2020-06-17 21:08:50,214 - learning - INFO - Searching classifier best parameters
+2020-06-17 21:08:51,772 - learning - INFO - Best parameters found:
+2020-06-17 21:08:51,772 - learning - INFO - 0.692
+2020-06-17 21:08:51,788 - learning - INFO - {'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}
+2020-06-17 21:08:51,788 - learning - INFO - Creating calibrated...
+2020-06-17 21:08:51,789 - learning - INFO - Training...
+2020-06-17 21:09:08,942 - utilities - INFO - Found 0 type with 366 records
+2020-06-17 21:09:08,944 - utilities - INFO - Found 1 type with 384 records
+2020-06-17 21:09:08,944 - learning - INFO - Searching classifier best parameters
+2020-06-17 21:09:10,809 - learning - INFO - Best parameters found:
+2020-06-17 21:09:10,809 - learning - INFO - 0.6693333333333333
+2020-06-17 21:09:10,809 - learning - INFO - {'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}
+2020-06-17 21:09:10,809 - learning - INFO - Creating calibrated...
+2020-06-17 21:09:10,817 - learning - INFO - Training...
+2020-06-17 21:28:37,800 - utilities - INFO - Found 0 type with 17 records
+2020-06-17 21:28:37,801 - utilities - INFO - Found 1 type with 21 records
+2020-06-17 21:28:37,802 - learning - INFO - Searching classifier best parameters
+2020-06-17 21:28:39,468 - learning - INFO - Best parameters found:
+2020-06-17 21:28:39,469 - learning - INFO - 0.8642857142857142
+2020-06-17 21:28:39,470 - learning - INFO - {'C': 1, 'gamma': 0.1, 'kernel': 'rbf'}
+2020-06-17 21:28:39,471 - learning - INFO - Creating calibrated...
+2020-06-17 21:28:39,472 - learning - INFO - Training...
+2020-06-17 21:28:42,793 - utilities - INFO - Found 0 type with 17 records
+2020-06-17 21:28:42,794 - utilities - INFO - Found 1 type with 21 records
+2020-06-17 21:28:42,795 - learning - INFO - Searching classifier best parameters
+2020-06-17 21:28:42,888 - learning - INFO - Best parameters found:
+2020-06-17 21:28:42,889 - learning - INFO - 0.8642857142857142
+2020-06-17 21:28:42,890 - learning - INFO - {'C': 1, 'gamma': 0.1, 'kernel': 'rbf'}
+2020-06-17 21:28:42,890 - learning - INFO - Creating calibrated...
+2020-06-17 21:28:42,891 - learning - INFO - Training...
+2020-06-17 21:28:45,971 - utilities - INFO - Found 0 type with 17 records
+2020-06-17 21:28:45,972 - utilities - INFO - Found 1 type with 21 records
+2020-06-17 21:28:45,973 - learning - INFO - Searching classifier best parameters
+2020-06-17 21:28:46,083 - learning - INFO - Best parameters found:
+2020-06-17 21:28:46,084 - learning - INFO - 0.8392857142857142
+2020-06-17 21:28:46,084 - learning - INFO - {'C': 1, 'gamma': 0.1, 'kernel': 'rbf'}
+2020-06-17 21:28:46,085 - learning - INFO - Creating calibrated...
+2020-06-17 21:28:46,086 - learning - INFO - Training...
+2020-06-17 21:34:39,351 - utilities - INFO - Found 0 type with 330 records
+2020-06-17 21:34:39,354 - utilities - INFO - Found 1 type with 420 records
+2020-06-17 21:34:39,354 - learning - INFO - Searching classifier best parameters
+2020-06-17 21:34:47,423 - learning - INFO - Best parameters found:
+2020-06-17 21:34:47,423 - learning - INFO - 0.7546666666666667
+2020-06-17 21:34:47,423 - learning - INFO - {'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}
+2020-06-17 21:34:47,423 - learning - INFO - Creating calibrated...
+2020-06-17 21:34:47,423 - learning - INFO - Training...
+2020-06-17 21:35:03,066 - utilities - INFO - Found 0 type with 330 records
+2020-06-17 21:35:03,068 - utilities - INFO - Found 1 type with 420 records
+2020-06-17 21:35:03,069 - learning - INFO - Searching classifier best parameters
+2020-06-17 21:35:04,584 - learning - INFO - Best parameters found:
+2020-06-17 21:35:04,585 - learning - INFO - 0.748
+2020-06-17 21:35:04,586 - learning - INFO - {'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}
+2020-06-17 21:35:04,587 - learning - INFO - Creating calibrated...
+2020-06-17 21:35:04,588 - learning - INFO - Training...
+2020-06-17 21:35:21,711 - utilities - INFO - Found 0 type with 330 records
+2020-06-17 21:35:21,713 - utilities - INFO - Found 1 type with 420 records
+2020-06-17 21:35:21,714 - learning - INFO - Searching classifier best parameters
+2020-06-17 21:35:23,469 - learning - INFO - Best parameters found:
+2020-06-17 21:35:23,469 - learning - INFO - 0.7506666666666667
+2020-06-17 21:35:23,469 - learning - INFO - {'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}
+2020-06-17 21:35:23,469 - learning - INFO - Creating calibrated...
+2020-06-17 21:35:23,472 - learning - INFO - Training...

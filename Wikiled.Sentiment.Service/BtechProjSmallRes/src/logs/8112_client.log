@@ -1,0 +1,7 @@
+2020-06-17 20:15:29,319 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2020-06-17 20:15:51,786 - utilities - INFO - Accurary: 0.534 and AUC 0.566
+2020-06-17 20:15:58,839 - utilities - INFO - Accurary: 0.460 and AUC 0.481
+2020-06-17 20:16:07,191 - utilities - INFO - Accurary: 0.476 and AUC 0.465
+2020-06-17 20:16:31,156 - utilities - INFO - Accurary: 0.490 and AUC 0.488
+2020-06-17 20:16:37,723 - utilities - INFO - Accurary: 0.516 and AUC 0.516
+2020-06-17 20:16:45,244 - utilities - INFO - Accurary: 0.492 and AUC 0.537

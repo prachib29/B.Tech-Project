@@ -1,0 +1,41 @@
+Company Under Study: Apple(AAPL),,,,
+Model Used,Case,Accuracy,f1_score,auc_score
+RandomForestClassifier,I,0.76,0.79,0.75
+,II,0.75,0.79,0.74
+,III,0.74,0.78,0.73
+SVM,I,0.68,0.71,0.67
+,II,0.67,0.7,0.66
+,III,0.68,0.71,0.67
+LogisticRegression,I,0.52,0.64,0.5
+,II,0.55,0.63,0.54
+,III,0.54,0.62,0.53
+ExtraTreesClassifier,I,0.78,0.81,0.77
+,II,0.77,0.79,0.76
+,III,0.78,0.81,0.77
+BaggingClassifier,I,0.74,0.76,0.74
+,II,0.74,0.76,0.74
+,III,0.72,0.75,0.72
+DecisionTreeClassifier,I,0.72,0.74,0.71
+,II,0.68,0.7,0.68
+,III,0.7,0.72,0.7
+AdaBoostClassifier,I,0.66,0.7,0.65
+,II,0.66,0.71,0.66
+,III,0.65,0.69,0.64
+Basic_LSTM(lookback = 2),I,0.53,0.51,0.54
+,II,0.49,0.49,0.5
+,III,0.5,0.53,0.5
+Basic_LSTM(lookback = 3),I,0.5,0.18,0.53
+,II,0.56,0.61,0.55
+,III,0.52,0.36,0.54
+Basic_LSTM(lookback = 5),I,0.55,0.6,0.55
+,II,0.5,0.56,0.49
+,III,0.54,0.59,0.53
+LSTM(lookback = 2),I,0.52,0.56,0.52
+,II,0.55,0.56,0.55
+,III,0.53,0.57,0.53
+LSTM(lookback = 3),I,0.55,0.57,0.55
+,II,0.56,0.62,0.55
+,III,0.5,0.53,0.49
+LSTM(lookback = 5),I,0.54,0.66,0.52
+,II,0.52,0.56,0.52
+,III,0.5,0.53,0.5

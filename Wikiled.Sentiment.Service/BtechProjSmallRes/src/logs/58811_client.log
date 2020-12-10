@@ -1,0 +1,41 @@
+2020-10-31 15:07:30,464 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2020-10-31 15:07:31,229 - utilities - INFO - Found 0 type with 366 records
+2020-10-31 15:07:31,232 - utilities - INFO - Found 1 type with 384 records
+2020-10-31 15:07:31,232 - learning - INFO - Searching classifier best parameters
+2020-10-31 15:07:33,647 - learning - INFO - Best parameters found:
+2020-10-31 15:07:33,648 - learning - INFO - 0.676
+2020-10-31 15:07:33,649 - learning - INFO - {'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}
+2020-10-31 15:07:33,649 - learning - INFO - Creating calibrated...
+2020-10-31 15:07:33,650 - learning - INFO - Training...
+2020-10-31 15:07:34,269 - utilities - INFO - 
+              precision    recall  f1-score   support
+
+           0      0.682     0.608     0.643       120
+           1      0.671     0.738     0.703       130
+
+    accuracy                          0.676       250
+   macro avg      0.677     0.673     0.673       250
+weighted avg      0.677     0.676     0.674       250
+
+2020-10-31 15:07:34,270 - utilities - INFO - Macro F1 0.673
+2020-10-31 15:07:34,272 - utilities - INFO - Micro F1 0.676
+2020-10-31 18:27:46,078 - utilities - INFO - Found 0 type with 366 records
+2020-10-31 18:27:46,081 - utilities - INFO - Found 1 type with 384 records
+2020-10-31 18:27:46,082 - learning - INFO - Searching classifier best parameters
+2020-10-31 18:27:48,479 - learning - INFO - Best parameters found:
+2020-10-31 18:27:48,480 - learning - INFO - 0.676
+2020-10-31 18:27:48,481 - learning - INFO - {'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}
+2020-10-31 18:27:48,481 - learning - INFO - Creating calibrated...
+2020-10-31 18:27:48,481 - learning - INFO - Training...
+2020-10-31 18:27:48,690 - utilities - INFO - 
+              precision    recall  f1-score   support
+
+           0      0.682     0.608     0.643       120
+           1      0.671     0.738     0.703       130
+
+    accuracy                          0.676       250
+   macro avg      0.677     0.673     0.673       250
+weighted avg      0.677     0.676     0.674       250
+
+2020-10-31 18:27:48,692 - utilities - INFO - Macro F1 0.673
+2020-10-31 18:27:48,694 - utilities - INFO - Micro F1 0.676

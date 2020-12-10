@@ -1,0 +1,4 @@
+2020-08-18 13:15:38,777 - psenti.service - INFO - Detecting sentiment in 2 documents; Domain [market]; Cleaning [True]; Model: [None] Lexicon: [None]
+2020-08-18 13:15:39,387 - psenti.service - INFO - Connected!
+2020-08-18 13:15:39,387 - psenti.service - INFO - Sending first document batch
+2020-08-18 13:15:39,834 - psenti.service - INFO - Completed!

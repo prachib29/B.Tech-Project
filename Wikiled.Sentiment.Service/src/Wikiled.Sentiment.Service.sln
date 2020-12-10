@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wikiled.Sentiment.Service.Tests", "Wikiled.Sentiment.Service.Tests\Wikiled.Sentiment.Service.Tests.csproj", "{E332C251-C3D4-4DAE-9BE4-8AF0727653FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BBF96401-642A-45B1-81F4-071699A3E296}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wikiled.Sentiment.Api", "Wikiled.Sentiment.Api\Wikiled.Sentiment.Api.csproj", "{A57539D9-DA4A-42CD-ADCB-DF19FA560C6D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wikiled.Sentiment.Service", "Wikiled.Sentiment.Service\Wikiled.Sentiment.Service.csproj", "{CBCA754E-F4B9-4EB3-A126-F71EDD107C98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E332C251-C3D4-4DAE-9BE4-8AF0727653FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E332C251-C3D4-4DAE-9BE4-8AF0727653FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E332C251-C3D4-4DAE-9BE4-8AF0727653FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E332C251-C3D4-4DAE-9BE4-8AF0727653FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A57539D9-DA4A-42CD-ADCB-DF19FA560C6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A57539D9-DA4A-42CD-ADCB-DF19FA560C6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A57539D9-DA4A-42CD-ADCB-DF19FA560C6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A57539D9-DA4A-42CD-ADCB-DF19FA560C6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBCA754E-F4B9-4EB3-A126-F71EDD107C98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBCA754E-F4B9-4EB3-A126-F71EDD107C98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBCA754E-F4B9-4EB3-A126-F71EDD107C98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBCA754E-F4B9-4EB3-A126-F71EDD107C98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4397618-51AC-43E3-8320-316A95C92749}
+	EndGlobalSection
+EndGlobal

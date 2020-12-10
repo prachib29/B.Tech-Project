@@ -1,0 +1,41 @@
+Company Under Study: Google(GOOG),,,,
+Model Used,Case,Accuracy,f1_score,auc_score
+RandomForestClassifier,I,0.77,0.8,0.78
+,II,0.85,0.86,0.88
+,III,0.77,0.8,0.78
+SVM,I,0.77,0.8,0.78
+,II,0.77,0.8,0.78
+,III,0.77,0.8,0.78
+LogisticRegression,I,0.77,0.8,0.78
+,II,0.77,0.8,0.78
+,III,0.77,0.8,0.78
+ExtraTreesClassifier,I,0.85,0.86,0.88
+,II,0.85,0.86,0.88
+,III,0.77,0.8,0.78
+BaggingClassifier,I,0.62,0.62,0.65
+,II,0.85,0.86,0.88
+,III,0.77,0.77,0.81
+DecisionTreeClassifier,I,0.62,0.67,0.61
+,II,0.77,0.8,0.78
+,III,0.62,0.67,0.61
+AdaBoostClassifier,I,0.62,0.67,0.61
+,II,0.69,0.75,0.68
+,III,0.62,0.67,0.61
+Basic_LSTM(lookback = 2),I,0.42,0,0.5
+,II,0.45,0,0.5
+,III,0.44,0,0.5
+Basic_LSTM(lookback = 3),I,0.42,0,0.5
+,II,0.45,0,0.5
+,III,0.44,0,0.5
+Basic_LSTM(lookback = 5),I,0.42,0,0.5
+,II,0.73,0.67,0.75
+,III,0.56,0.6,0.55
+LSTM(lookback = 2),I,0.5,0.4,0.54
+,II,0.82,0.8,0.83
+,III,0.44,0.29,0.48
+LSTM(lookback = 3),I,0.67,0.67,0.69
+,II,0.64,0.6,0.65
+,III,0.56,0.5,0.57
+LSTM(lookback = 5),I,0.67,0.67,0.69
+,II,0.82,0.8,0.83
+,III,0.44,0.29,0.48
